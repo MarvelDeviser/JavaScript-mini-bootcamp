@@ -12,11 +12,11 @@ https://lambdaschool.com/mini-bootcamp/javascript
 
    The homework includes initial JavaScript environment setup, and requires you to create Feynman writing prompts, then code those concepts."
 
-   <details><summary>Lesson One NOTES</summary><p>
+<details><summary>Lesson One NOTES</summary><p>
 
-   ## INTRO SHAG TIL ~7min.
+## INTRO SHAG TIL ~7min.
 
-   ```
+```
   codey code
     coderson
   code
