@@ -14,7 +14,8 @@ https://lambdaschool.com/mini-bootcamp/javascript
 
    The homework includes initial JavaScript environment setup, and requires you to create Feynman writing prompts, then code those concepts."
 
-- [Lesson One Homework](https://github.com/SunJieMing/js-minicamp-homework-1)
+- [LESSON ONE: Homework Assignment](https://github.com/SunJieMing/js-minicamp-homework-1)
+- [LESSON ONE: Completed Homework](https://github.com/mixelpixel/JavaScript-mini-bootcamp/tree/master/js-minicamp-homework-1-master)
 
 <details><summary>Lesson One NOTES</summary><p>
 
@@ -165,7 +166,8 @@ console.log(sheCanDrive);
    "This lesson covers git and Github, loops, if/then/else statements, &, ||, !=, and other concepts.
 
    For the homework you'll fork and clone a repository from Github, make changes until tests pass, and push the repository back up."
-- [Lesson Two Homework](https://github.com/SunJieMing/js-minicamp-homework-2)  
+- [LESSON TWO: Homework Assignment](https://github.com/SunJieMing/js-minicamp-homework-2)  
+- [LESSON TWO: Completed Homework]()  
 
 <details><summary>Lesson Two NOTES</summary><p>
 
@@ -182,7 +184,8 @@ console.log(sheCanDrive);
    "Objects, this, and more.
 
    For the homework you'll fork and clone a repository from Github, make changes until tests pass, and push the repository back up."
-- [Lesson Three Homework](https://github.com/SunJieMing/js-minicamp-homework-3)  
+- [LESSON THREE: Homework Assignment](https://github.com/SunJieMing/js-minicamp-homework-3)  
+- [LESSON THREE: Completed Homework]()  
 
 <details><summary>Lesson Three NOTES</summary><p>
 
