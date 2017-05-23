@@ -179,15 +179,18 @@ function getTriangleArea(base, height) {
 
 function getCircleArea(radius) {
   /* return the rounded area of the circle given the radius */
-  var    circleArea = Math.PI * Math.pow(radius, 2);
-  return circleArea;
+  // var    circleArea = Math.round(Math.PI * Math.pow(radius, 2));
+  // var    circleArea = Math.round(Math.PI * radius * radius);
+  // return circleArea;
+  // return Math.round(Math.PI * radius * radius);
+  return Math.round(Math.PI * Math.pow(radius, 2));
 }
 
 function getRectangularPrismVolume(length, width, height) {
   /* return the volume of the 3D rectangular prism given the length, width, and height */
-  var    volume = length * width * height;
-  return volume;
-  // return length * width * height;
+  // var    volume = length * width * height;
+  // return volume;
+  return length * width * height;
 }
 
 //Do not modify code below this line.
