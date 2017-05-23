@@ -151,7 +151,7 @@ var sheCanDrive = canDrive(herAge);
 console.log(sheCanDrive);
 ```
 
-- [@57m45s](https://youtu.be/fjjebMXE-P8?t=57m45s) Homework on github, npm install (comes with node), `npm test`
+- [@57m45s](https://youtu.be/fjjebMXE-P8?t=57m45s) Homework on github, npm install (comes with node), `npm test`, etc.
 
 - [@1h9m](https://youtu.be/fjjebMXE-P8?t=1h9m) Q&A
 
