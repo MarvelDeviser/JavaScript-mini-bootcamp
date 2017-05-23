@@ -21,6 +21,8 @@ https://lambdaschool.com/mini-bootcamp/javascript
 
 ### LESSON ONE NOTES
 
+- To exit the node interactive shell, type `.exit` or send EOL with ctrl+d, or ctrl+c twice.
+
 - [@07min](https://youtu.be/fjjebMXE-P8?t=7m) Lecture starts
 - [@8m20s](https://youtu.be/fjjebMXE-P8?t=8m20s) download node nodejs.org
 - [@09min](https://youtu.be/fjjebMXE-P8?t=9) command line basics
