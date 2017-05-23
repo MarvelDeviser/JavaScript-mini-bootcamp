@@ -15,7 +15,9 @@ https://lambdaschool.com/mini-bootcamp/javascript
 - [Lesson One Homework](https://github.com/SunJieMing/js-minicamp-homework-1)
 
 <details><summary>Lesson One NOTES</summary><p>
-## LESSON ONE NOTES
+
+### LESSON ONE NOTES
+
 </p></details>
 
 ## Lesson Two
@@ -27,9 +29,9 @@ https://lambdaschool.com/mini-bootcamp/javascript
    For the homework you'll fork and clone a repository from Github, make changes until tests pass, and push the repository back up."
 - [Lesson Two Homework](https://github.com/SunJieMing/js-minicamp-homework-2)  
 
-<details><summary>Lesson One NOTES</summary><p>
+<details><summary>Lesson Two NOTES</summary><p>
 
-## LESSON TWO NOTES
+### LESSON TWO NOTES
 
 </p></details>
 
@@ -42,9 +44,9 @@ https://lambdaschool.com/mini-bootcamp/javascript
    For the homework you'll fork and clone a repository from Github, make changes until tests pass, and push the repository back up."
 - [Lesson Three Homework](https://github.com/SunJieMing/js-minicamp-homework-3)  
 
-<details><summary>Lesson One NOTES</summary><p>
+<details><summary>Lesson Three NOTES</summary><p>
 
-## LESSON THREE NOTES
+### LESSON THREE NOTES
 
 </p></details>
 
