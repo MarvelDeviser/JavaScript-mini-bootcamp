@@ -46,4 +46,5 @@ I initialized this repository as a local `git init` and **_then_** set up the Gi
 - `git remote add origin https://github.com/mixelpixel/JavaScript-mini-bootcamp.git`
 - `git remote -v`
 - `git push -u origin master`
+
 Per: https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/  
