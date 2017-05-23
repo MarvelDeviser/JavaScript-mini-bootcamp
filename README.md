@@ -19,141 +19,141 @@ https://lambdaschool.com/mini-bootcamp/javascript
 
 <details><summary>Lesson One NOTES</summary><p>
 
-### LESSON ONE NOTES
+  ### LESSON ONE NOTES
 
-- [@07min](https://youtu.be/fjjebMXE-P8?t=7m) Lecture starts
-- [@8m20s](https://youtu.be/fjjebMXE-P8?t=8m20s) download node nodejs.org
-- [@09min](https://youtu.be/fjjebMXE-P8?t=9) command line basics
-- [@11min](https://youtu.be/fjjebMXE-P8?t=11) JS declaring variables with "var" keyword & using console.log() for printing to screen/stdout.
+  - [@07min](https://youtu.be/fjjebMXE-P8?t=7m) Lecture starts
+  - [@8m20s](https://youtu.be/fjjebMXE-P8?t=8m20s) download node nodejs.org
+  - [@09min](https://youtu.be/fjjebMXE-P8?t=9) command line basics
+  - [@11min](https://youtu.be/fjjebMXE-P8?t=11) JS declaring variables with "var" keyword & using console.log() for printing to screen/stdout.
 
-JS is not "strongly Typed" - var works for eVARything (as opposed to C int, char, float, etc.)
+  JS is not "strongly Typed" - var works for eVARything (as opposed to C int, char, float, etc.)
 
-```js
-var variable_name   = 'something'; // strings
-var favorite_number = 15;          // integers
-var likesPizza      = true;        // Boolean
-var age             = 30;
-var age             = age + 10;    // arithmetic + - / *
-var remainder       = 20 % 7       // % modular arithmetic returns the remainder
+  ```js
+  var variable_name   = 'something'; // strings
+  var favorite_number = 15;          // integers
+  var likesPizza      = true;        // Boolean
+  var age             = 30;
+  var age             = age + 10;    // arithmetic + - / *
+  var remainder       = 20 % 7       // % modular arithmetic returns the remainder
 
-console.log(variable_name);
-console.log(favorite_number);
-console.log(likesPizza);
-console.log(age);
-console.log(remainder):
+  console.log(variable_name);
+  console.log(favorite_number);
+  console.log(likesPizza);
+  console.log(age);
+  console.log(remainder):
 
-etc...
-```
+  etc...
+  ```
 
-- [@26min](https://youtu.be/fjjebMXE-P8?t=26) Concatenation
+  - [@26min](https://youtu.be/fjjebMXE-P8?t=26) Concatenation
 
-```js
-var firstName = 'Ben';
-var lastName = 'Nelson';
-var fullName = firstName + ' ' + lastName;
+  ```js
+  var firstName = 'Ben';
+  var lastName = 'Nelson';
+  var fullName = firstName + ' ' + lastName;
 
-console.log(fullName);
-```
+  console.log(fullName);
+  ```
 
-- [@28m20s](https://youtu.be/fjjebMXE-P8?t=28m20s) Global Objects, methods and properties, e.g. the "Math" object with methods: powers, round, ceil, floor, etc.
+  - [@28m20s](https://youtu.be/fjjebMXE-P8?t=28m20s) Global Objects, methods and properties, e.g. the "Math" object with methods: powers, round, ceil, floor, etc.
 
-```js
-var twoCubed = Math.pow(2, 3);
+  ```js
+  var twoCubed = Math.pow(2, 3);
 
-console.log(twoCubed);
-```
-- [@31m25s](https://youtu.be/fjjebMXE-P8?t=31m25s) All strings have the property: Length
-```js
-var greeting = "Hello World!";
-var greetingLength = greeting.length;
+  console.log(twoCubed);
+  ```
+  - [@31m25s](https://youtu.be/fjjebMXE-P8?t=31m25s) All strings have the property: Length
+  ```js
+  var greeting = "Hello World!";
+  var greetingLength = greeting.length;
 
-console.log(greetingLength);
-```
+  console.log(greetingLength);
+  ```
 
-- [@32m45s](https://youtu.be/fjjebMXE-P8?t=32m45s) Function
+  - [@32m45s](https://youtu.be/fjjebMXE-P8?t=32m45s) Function
 
-```js
-function funcName() {
-  console.log('Hello');
-}
-
-console.log('Hi'); // gets printed first
-funcName(); // invokes the function
-```
-
-- [@8m20s](https://youtu.be/fjjebMXE-P8?t=8m20s) Function Arguments, using keyword "function", function naming conventions (actions) and camelCase.
-
-```js
-function funcName(argument) {
-  var greeting = 'Hello ' + argument);
-  console.log(greeting);
-}
-
-var name1 = 'Ben'
-funcName(name1);
-funcName('Fred');
-funcName('Ted');
-funcName('Bob');
-funcName('Alice');
-funcName('Betty');
-```
-
--  [@45min](https://youtu.be/fjjebMXE-P8?t=45m) Return
-
-```js
-function addTwoNumbers(x,y) {
-  // console.log(x, y);
-  var sum = x + y;
-  return sum;
-}
-
-addTwoNumbers(2, 3);
-
-var value = addTwoNumbers(3,4);
-
-console.log(value);
-```
-
-- [@50min](https://youtu.be/fjjebMXE-P8?t=50m) Scope
-
-```js
-function addTwoNumbers(x,y) {
-  // console.log(x, y);
-  var sum = x + y; // <--- "sum" is declared INSIDE the function
-  // return x + y
-  return sum;
-}
-var value = addTwoNumbers(3,4);
-console.log(value);
-
-console.log(sum);  // <--- "sum" is scoped inside the function. NOT accessible outside the function.
-```
-- [@51m30s](https://youtu.be/fjjebMXE-P8?t=51m30s) Branching Control Flow
-
-```js
-function canDrive(age) {
-  if (age >= 16) {
-    return true;
+  ```js
+  function funcName() {
+    console.log('Hello');
   }
-  return false;
-}
 
-var myAge = 50;
-var iCanDrive = canDrive(myAge);
-console.log(iCanDrive);
+  console.log('Hi'); // gets printed first
+  funcName(); // invokes the function
+  ```
 
-var hisAge = 10;
-var = heCanDrive = canDrive(hisAge);
-console.log(heCanDrive);
+  - [@8m20s](https://youtu.be/fjjebMXE-P8?t=8m20s) Function Arguments, using keyword "function", function naming conventions (actions) and camelCase.
 
-var herAge = 16;
-var sheCanDrive = canDrive(herAge);
-console.log(sheCanDrive);
-```
+  ```js
+  function funcName(argument) {
+    var greeting = 'Hello ' + argument);
+    console.log(greeting);
+  }
 
-- [@57m45s](https://youtu.be/fjjebMXE-P8?t=57m45s) Homework on github, npm install (comes with node), `npm test`
+  var name1 = 'Ben'
+  funcName(name1);
+  funcName('Fred');
+  funcName('Ted');
+  funcName('Bob');
+  funcName('Alice');
+  funcName('Betty');
+  ```
 
-- [@1h9m](https://youtu.be/fjjebMXE-P8?t=1h9m) Q&A
+  -  [@45min](https://youtu.be/fjjebMXE-P8?t=45m) Return
+
+  ```js
+  function addTwoNumbers(x,y) {
+    // console.log(x, y);
+    var sum = x + y;
+    return sum;
+  }
+
+  addTwoNumbers(2, 3);
+
+  var value = addTwoNumbers(3,4);
+
+  console.log(value);
+  ```
+
+  - [@50min](https://youtu.be/fjjebMXE-P8?t=50m) Scope
+
+  ```js
+  function addTwoNumbers(x,y) {
+    // console.log(x, y);
+    var sum = x + y; // <--- "sum" is declared INSIDE the function
+    // return x + y
+    return sum;
+  }
+  var value = addTwoNumbers(3,4);
+  console.log(value);
+
+  console.log(sum);  // <--- "sum" is scoped inside the function. NOT accessible outside the function.
+  ```
+  - [@51m30s](https://youtu.be/fjjebMXE-P8?t=51m30s) Branching Control Flow
+
+  ```js
+  function canDrive(age) {
+    if (age >= 16) {
+      return true;
+    }
+    return false;
+  }
+
+  var myAge = 50;
+  var iCanDrive = canDrive(myAge);
+  console.log(iCanDrive);
+
+  var hisAge = 10;
+  var = heCanDrive = canDrive(hisAge);
+  console.log(heCanDrive);
+
+  var herAge = 16;
+  var sheCanDrive = canDrive(herAge);
+  console.log(sheCanDrive);
+  ```
+
+  - [@57m45s](https://youtu.be/fjjebMXE-P8?t=57m45s) Homework on github, npm install (comes with node), `npm test`
+
+  - [@1h9m](https://youtu.be/fjjebMXE-P8?t=1h9m) Q&A
 
 </p></details>
 
