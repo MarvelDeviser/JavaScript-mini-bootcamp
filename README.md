@@ -19,7 +19,7 @@ https://lambdaschool.com/mini-bootcamp/javascript
 
 <details><summary><b>LESSON ONE: NOTES</b></summary><p>
 
-### LESSON ONE NOTES
+### LESSON ONE: NOTES
 
 - To exit the node interactive shell, type `.exit` or send EOL with ctrl+d, or ctrl+c twice.
 
@@ -171,7 +171,7 @@ console.log(sheCanDrive);
 - [LESSON TWO: Homework Assignment](https://github.com/SunJieMing/js-minicamp-homework-2)  
 - [LESSON TWO: Completed Homework]()  
 
-<details><summary>Lesson Two NOTES</summary><p>
+<details><summary><b>LESSON TWO: NOTES</b></summary><p>
 
 ### LESSON TWO NOTES
 
@@ -189,7 +189,7 @@ console.log(sheCanDrive);
 - [LESSON THREE: Homework Assignment](https://github.com/SunJieMing/js-minicamp-homework-3)  
 - [LESSON THREE: Completed Homework]()  
 
-<details><summary>Lesson Three NOTES</summary><p>
+<details><summary><b>LESSON THREE: NOTES</b></summary><p>
 
 ### LESSON THREE NOTES
 
