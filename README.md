@@ -17,7 +17,7 @@ https://lambdaschool.com/mini-bootcamp/javascript
 - [LESSON ONE: Homework Assignment](https://github.com/SunJieMing/js-minicamp-homework-1)
 - [LESSON ONE: Completed Homework](https://github.com/mixelpixel/JavaScript-mini-bootcamp/tree/master/js-minicamp-homework-1-master)
 
-  <details><summary>Lesson One NOTES</summary><p>
+ <details><summary>Lesson One NOTES</summary><p>
 
 ### LESSON ONE NOTES
 
