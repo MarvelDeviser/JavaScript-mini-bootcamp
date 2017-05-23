@@ -81,4 +81,6 @@ Per: https://help.github.com/articles/adding-an-existing-project-to-github-using
 
 </p></details>
 
-fin.
+***
+
+# fin
