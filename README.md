@@ -20,6 +20,8 @@ https://lambdaschool.com/mini-bootcamp/javascript
 
 </p></details>
 
+***
+
 ## Lesson Two
 ### "Control Flow in JavaScript"
 - [LESSON TWO](https://youtu.be/4LNf5qcQWHQ)
@@ -34,6 +36,8 @@ https://lambdaschool.com/mini-bootcamp/javascript
 ### LESSON TWO NOTES
 
 </p></details>
+
+***
 
 ## Lesson Three
 ### "JavaScript Objects"
@@ -50,6 +54,7 @@ https://lambdaschool.com/mini-bootcamp/javascript
 
 </p></details>
 
+***
 
 # git / GitHub note:
 I initialized this repository as a local `git init` and **_then_** set up the GitHub repository.  
