@@ -28,7 +28,7 @@ https://lambdaschool.com/mini-bootcamp/javascript
 - [@09min](https://youtu.be/fjjebMXE-P8?t=9) command line basics
 - [@11min](https://youtu.be/fjjebMXE-P8?t=11) JS declaring variables with "var" keyword & using console.log() for printing to screen/stdout.
 
-JS is not "strongly Typed" - var works for eVARything (as opposed to C int, char, float, etc.)
+JS is not "strongly Typed" - var works for eVARy data type (as opposed to C where each variable is declared along with its data type.)
 
 ```js
 var variable_name   = 'something'; // strings
