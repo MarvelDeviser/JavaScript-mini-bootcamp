@@ -19,7 +19,7 @@ https://lambdaschool.com/mini-bootcamp/javascript
 
 <details><summary><b>LESSON ONE: NOTES</b></summary><p>
 
-### LESSON ONE LECTURE: NOTES
+### LESSON ONE LECTURE NOTES
 
 - To exit the node interactive shell, type `.exit` or send EOL with ctrl+d, or ctrl+c twice.
 
@@ -173,7 +173,7 @@ console.log(sheCanDrive);
 
 <details><summary><b>LESSON TWO: NOTES</b></summary><p>
 
-### LESSON TWO  LECTURENOTES
+### LESSON TWO LECTURE NOTES
 
 </p></details>
 
