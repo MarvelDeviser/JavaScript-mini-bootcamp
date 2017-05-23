@@ -27,3 +27,20 @@ For the homework you'll fork and clone a repository from Github, make changes un
 
 For the homework you'll fork and clone a repository from Github, make changes until tests pass, and push the repository back up."  
 - [Lesson Three Homework](https://github.com/SunJieMing/js-minicamp-homework-3)  
+
+# git / GitHub note:
+I initialized this repository as a local `git init` and **_then_** set up the GitHub repository.  
+- `mkdir JavaScript-mini-bootcamp`
+- `cd JavaScript-mini-bootcamp`
+- `git init`
+- `touch README.md`
+- `touch .gitignore`
+- `git status`
+- `git add .`
+- `git commit -m "first!"`
+- @GitHub.com I made a new repository: "JavaScript-mini-bootcamp" (no README.md or .gitignore)
+- copied the URL: https://github.com/mixelpixel/JavaScript-mini-bootcamp.git
+- `git remote add origin https://github.com/mixelpixel/JavaScript-mini-bootcamp.git`
+- `git remote -v`
+- `git push -u origin master`
+Per: https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/  
