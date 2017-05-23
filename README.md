@@ -12,18 +12,11 @@ https://lambdaschool.com/mini-bootcamp/javascript
 
    The homework includes initial JavaScript environment setup, and requires you to create Feynman writing prompts, then code those concepts."
 
-- <details><summary>Lesson One NOTES</summary><p>
-
-## INTRO SHAG TIL ~7min.
-
-```
-  codey code
-    coderson
-  code
-```
-</p></details>
-
 - [Lesson One Homework](https://github.com/SunJieMing/js-minicamp-homework-1)
+
+<details><summary>Lesson One NOTES</summary><p>
+## LESSON ONE NOTES
+</p></details>
 
 ## Lesson Two
 ### "Control Flow in JavaScript"
@@ -33,6 +26,13 @@ https://lambdaschool.com/mini-bootcamp/javascript
 
    For the homework you'll fork and clone a repository from Github, make changes until tests pass, and push the repository back up."
 - [Lesson Two Homework](https://github.com/SunJieMing/js-minicamp-homework-2)  
+
+<details><summary>Lesson One NOTES</summary><p>
+
+## LESSON TWO NOTES
+
+</p></details>
+
 ## Lesson Three
 ### "JavaScript Objects"
 - [LESSON THREE](https://youtu.be/Dc6YcYsT3UM)
@@ -41,6 +41,13 @@ https://lambdaschool.com/mini-bootcamp/javascript
 
    For the homework you'll fork and clone a repository from Github, make changes until tests pass, and push the repository back up."
 - [Lesson Three Homework](https://github.com/SunJieMing/js-minicamp-homework-3)  
+
+<details><summary>Lesson One NOTES</summary><p>
+
+## LESSON THREE NOTES
+
+</p></details>
+
 
 # git / GitHub note:
 I initialized this repository as a local `git init` and **_then_** set up the GitHub repository.  
