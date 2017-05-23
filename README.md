@@ -80,7 +80,7 @@ console.log('Hi'); // gets printed first
 funcName(); // invokes the function
 ```
 
-- [@](https://youtu.be/fjjebMXE-P8?t=8m20s) Function Arguments, using keyword "function", function naming conventions (actions) and camelCase.
+- [@8m20s](https://youtu.be/fjjebMXE-P8?t=8m20s) Function Arguments, using keyword "function", function naming conventions (actions) and camelCase.
 
 ```js
 function funcName(argument) {
@@ -152,7 +152,7 @@ console.log(sheCanDrive);
 
 - [@57m45s](https://youtu.be/fjjebMXE-P8?t=57m45s) Homework on github, npm install (comes with node), `npm test`
 
-
+- [@1h9m](https://youtu.be/fjjebMXE-P8?t=1h9m) Q&A
 
 </p></details>
 
