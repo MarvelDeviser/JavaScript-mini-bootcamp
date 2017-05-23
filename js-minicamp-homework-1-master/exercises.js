@@ -138,43 +138,56 @@ function roundUp(num) {
 }
 
 function addExclamationPoint(str) {
-  //add an exclamation point to the end of str and return the new string
-  //'hello world' -> 'hello world!'
-  //code here
+  /* add an exclamation point to the end of str and return the new string */
+  /* 'hello world' -> 'hello world!' */
+  // var    addExclamation = str + '!';  // STRING MUST USE SINGLE QUOTES
+  // return addExclamation;
+  return str + '!';
 }
 
 function combineNames(firstName, lastName) {
-  //return firstName and lastName combined as one string and separated by a space.
-  //'Lambda', 'School' -> 'Lambda School'
-  //code here
+  /* return firstName and lastName combined as one string and separated by a space. */
+  /* 'Lambda', 'School' -> 'Lambda School' */
+  // var    fullName = firstName + ' ' + lastName;
+  // return fullName;
+  return firstName + ' ' + lastName;
 }
 
 function getGreeting(name) {
-  //Take the name string and concatenate other strings onto it so it takes the following form:
-  //'Sam' -> 'Hello Sam!'
-  //code here
+  /* Take the name string and concatenate other strings onto it so it takes the following form: */
+  /* 'Sam' -> 'Hello Sam!' */
+  // var    greeting = 'Hello ' + name + '!';
+  // return greeting;
+  return 'Hello ' + name + '!';
 }
 
-//If you can't remember these area formulas then head over to Google or look at the test code.
+// If you can't remember these area formulas then head over to Google or look at the test code.
 
 function getRectangleArea(length, width) {
-  //return the area of the rectangle by using length and width
-  //code here
+  /* return the area of the rectangle by using length and width */
+  // var    rectangleArea = length * width;
+  // return rectangleArea;
+  return length * width;
 }
 
 function getTriangleArea(base, height) {
-  //return the area of the triangle by using base and height
-  //code here
+  /* return the area of the triangle by using base and height */
+  // var    triangleArea = (base * height) / 2;
+  // return triangleArea;
+  return (base * height) / 2;
 }
 
 function getCircleArea(radius) {
-  //return the rounded area of the circle given the radius
-  //code here
+  /* return the rounded area of the circle given the radius */
+  var    circleArea = Math.PI * Math.pow(radius, 2);
+  return circleArea;
 }
 
 function getRectangularPrismVolume(length, width, height) {
-  //return the volume of the 3D rectangular prism given the length, width, and height
-  //code here
+  /* return the volume of the 3D rectangular prism given the length, width, and height */
+  var    volume = length * width * height;
+  return volume;
+  // return length * width * height;
 }
 
 //Do not modify code below this line.
