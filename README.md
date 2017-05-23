@@ -162,7 +162,7 @@ console.log(sheCanDrive);
 ***
 
 # Lesson Two
-## "Control Flow in JavaScript"
+## "Control Flow in JavaScript & git/GitHub"
 - [LESSON TWO](https://youtu.be/4LNf5qcQWHQ)
 
    "This lesson covers git and Github, loops, if/then/else statements, &, ||, !=, and other concepts.
