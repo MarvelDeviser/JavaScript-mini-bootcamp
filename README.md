@@ -18,7 +18,7 @@ The homework includes initial JavaScript environment setup, and requires you to 
 ### "Control Flow in JavaScript"
 - [LESSON TWO](https://youtu.be/4LNf5qcQWHQ)
 
-"This lesson covers git and Github, loops, if/then/else statements, &, ||, !=, and other concepts.
+..."This lesson covers git and Github, loops, if/then/else statements, &, ||, !=, and other concepts.
 
 For the homework you'll fork and clone a repository from Github, make changes until tests pass, and push the repository back up."
 - [Lesson Two Homework](https://github.com/SunJieMing/js-minicamp-homework-2)  
