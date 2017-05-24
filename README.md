@@ -179,7 +179,7 @@ console.log(sheCanDrive);
 
 - [@2m30s](https://youtu.be/4LNf5qcQWHQ?t=2m30s) Lecture starts
 
-- [@3m35s](https://youtu.be/4LNf5qcQWHQ?t=3m35s) `git` & GitHub
+- [@3m35s](https://youtu.be/4LNf5qcQWHQ?t=3m35s) `git` & GitHub  
   GitHub is online storage.  
   `git` is the version control software.  
   Forking, downloading/cloning, status, staging, add, commit comments, resetting, branch master, origin master, push, pull request, branchin and merge  
