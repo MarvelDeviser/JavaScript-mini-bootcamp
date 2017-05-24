@@ -317,6 +317,16 @@ I initialized this repository as a local `git init` and **_then_** set up the Gi
 
 Per: https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/  
 
+For Homework #2 I made a submodule.  
+Per: https://github.com/mixelpixel/js-minicamp-homework-2.git
+- Fork https://github.com/SunJieMing/js-minicamp-homework-2
+- ...creating: https://github.com/mixelpixel/js-minicamp-homework-2
+- copied URL
+- `$  git submodule add https://github.com/mixelpixel/js-minicamp-homework-2.git`
+- `git status`
+
+
+
 </p></details>
 
 ***
