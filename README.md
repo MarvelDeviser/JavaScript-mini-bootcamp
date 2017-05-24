@@ -162,7 +162,7 @@ console.log(sheCanDrive);
 ***
 
 # Lesson Two
-## "Control Flow in JavaScript & git/GitHub"
+## "Control Flow in JavaScript & `git` / GitHub"
 - [LESSON TWO LECTURE](https://youtu.be/4LNf5qcQWHQ)
 
    "This lesson covers git and Github, loops, if/then/else statements, &, ||, !=, and other concepts.
@@ -174,6 +174,105 @@ console.log(sheCanDrive);
 <details><summary><b>LESSON TWO: NOTES</b></summary><p>
 
 ### LESSON TWO LECTURE NOTES
+
+- NOTE: ALWAYS USE TRIPLE EQUALS === NOT DOUBLE EQUALS == !!!!!  
+
+- [@2m30s](https://youtu.be/4LNf5qcQWHQ?t=2m30s) Lecture starts
+
+- [@3m35s](https://youtu.be/4LNf5qcQWHQ?t=3m35s) `git` & GitHub
+  GitHub is online storage.  
+  `git` is the version control software.  
+  Forking, downloading/cloning, status, staging, add, commit comments, resetting, branch master, origin master, push, pull request, branchin and merge  
+
+- [@18m30s](https://youtu.be/4LNf5qcQWHQ?t=18m30s) Conditionals If, Else, Else-If
+
+```js
+if (true) {
+  do this
+} else {
+  do that
+}
+```
+
+```js
+var food = 'Pizza';
+
+if (food === 'Pizza') {
+  console.log ('Yummy!');
+} else {
+  console.log('I would rather have pizza...');
+}
+```
+
+```js
+var food = 'Pizza';
+
+if (food === 'Pizza') {
+  console.log ('Yummy!');
+} else if (food === 'Steak') {
+  console.log('Super yummy!');
+} else {
+  console.log('I would rather have pizza...');
+}
+```
+
+```js
+var age = 16;
+var hasDriversLicense = true;
+
+// && and, || or, ! not, != not equal to, !false, !true, etc. <------------THIS
+if (age >=16 && hasDriversLicense) {
+  console.log('You can Drive');
+} else {
+  console.log('Call your mom to pick you up.');
+}
+```
+
+- [@36m](https://youtu.be/4LNf5qcQWHQ?t=36m) For loops, iterating over arrays
+
+```js
+// as long as condition is true, for loop repeats.
+for (var initial value; condition; iteration action) {
+    do someting;
+}
+```
+
+```js
+for (var i = 0; 1 < 10; i++) {
+    console.log(i + '. hi!');
+}
+```
+
+```js
+var favFoods = ['Steak', 'Mango', 'Curry']; // [[0], [1], [2], ...]] array
+
+console.log(favFoods.length);
+console.log(favFoods[0]);
+console.log(favFoods[favFoods.length -1]); // always gives last item
+```
+
+```js
+var favFoods = ['Steak', 'Mango', 'Curry'];
+
+for (var i = 0; i < favFoods.length; i++) {
+  if (favFoods[i] === 'Mango') {
+    favFoods[i] = 'Pineapple';
+  }
+  console.log(favFoods[i]);
+}
+```
+
+```js
+var favFoods = ['Steak', 'Mango', 'Curry'];
+
+favFoods.push('Ice Cream') // .push() adds item to the end
+console.log(favFoods);
+
+favFoods.pop();            // .pop() removes item from the end
+console.log(favFoods);
+```
+
+- [@56m](https://youtu.be/4LNf5qcQWHQ?t=56m) Q&A
 
 </p></details>
 
