@@ -6,7 +6,7 @@ https://lambdaschool.com/mini-bootcamp/javascript
 
 # Lesson One
 ## "Introduction to JavaScript"
-- [LESSON ONE](https://youtu.be/fjjebMXE-P8)
+- [LESSON ONE LECTURE](https://youtu.be/fjjebMXE-P8)
 
    "This introductory lesson covers variables and operators, functions, data types, and the Math object. It also touches lightly on Node, GitHub, and npm.
 
@@ -19,7 +19,7 @@ https://lambdaschool.com/mini-bootcamp/javascript
 
 <details><summary><b>LESSON ONE: NOTES</b></summary><p>
 
-### LESSON ONE NOTES
+### LESSON ONE LECTURE NOTES
 
 - To exit the node interactive shell, type `.exit` or send EOL with ctrl+d, or ctrl+c twice.
 
@@ -162,8 +162,8 @@ console.log(sheCanDrive);
 ***
 
 # Lesson Two
-## "Control Flow in JavaScript"
-- [LESSON TWO](https://youtu.be/4LNf5qcQWHQ)
+## "Control Flow in JavaScript & git/GitHub"
+- [LESSON TWO LECTURE](https://youtu.be/4LNf5qcQWHQ)
 
    "This lesson covers git and Github, loops, if/then/else statements, &, ||, !=, and other concepts.
 
@@ -171,9 +171,9 @@ console.log(sheCanDrive);
 - [LESSON TWO: Homework Assignment](https://github.com/SunJieMing/js-minicamp-homework-2)  
 - [LESSON TWO: Completed Homework]()  
 
-<details><summary>Lesson Two NOTES</summary><p>
+<details><summary><b>LESSON TWO: NOTES</b></summary><p>
 
-### LESSON TWO NOTES
+### LESSON TWO LECTURE NOTES
 
 </p></details>
 
@@ -181,7 +181,7 @@ console.log(sheCanDrive);
 
 # Lesson Three
 ## "JavaScript Objects"
-- [LESSON THREE](https://youtu.be/Dc6YcYsT3UM)
+- [LESSON THREE LECTURE](https://youtu.be/Dc6YcYsT3UM)
 
    "Objects, this, and more.
 
@@ -189,9 +189,9 @@ console.log(sheCanDrive);
 - [LESSON THREE: Homework Assignment](https://github.com/SunJieMing/js-minicamp-homework-3)  
 - [LESSON THREE: Completed Homework]()  
 
-<details><summary>Lesson Three NOTES</summary><p>
+<details><summary><b>LESSON THREE: NOTES</b></summary><p>
 
-### LESSON THREE NOTES
+### LESSON THREE LECTURE NOTES
 
 </p></details>
 
