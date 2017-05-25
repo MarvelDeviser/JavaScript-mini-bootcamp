@@ -300,7 +300,7 @@ when assigning variables, instead of x _equals_ 5, x **gets** 5.
   - colons : separate the Key from the Value
   - object.key returns the value
 ```js
-var obj = {
+var object = {
   Key: Value,
 }
 ```
@@ -310,13 +310,72 @@ var user = {
   password: 'password'
   age: 99,
   likesIceCream: true,
-  sayHi: function() {
-    console.log('hello!');  // <----- This is a METHOD
+  sayHi: function() {       // <----- AN "ANONYMOUS" FUNCTION inside
+    console.log('hello!');  // <----- an OBJECT is a called a METHOD
   },
-  et: cetera
-  and: so_on
+  et: 'cetera'
+  and: 'so on'
 }
 ```
+  - `console.log(user.username);` would return "SunJieMing"
+    - **DOT notation**
+    - **user** is the variable name that was assigned to an object containing key:value pairs.
+    - **.** the dot following the object tells JS to get a **PROPERTY** which is declared in the object.
+    - **username** is the property of the object "user"; it is a key which holds the value, "SunJieMing".
+    - `console` is an object, `log` is a method, `user.username` is the argument which is passed to the `log` method.
+  - object, dictionary, hash table - same idea, key:value, "constant lookup".
+  - `user.age++;` will increment 99 to 100
+  - `console.log(user);` will print out the entire object (the method will just be displayed as "sayHI: [FUNCTION]")
+  - `user.sayHi();` invokes the method.
+  - `user.isPremiun = true;` ADDS a KEY `isPremium` to the user object with the VALUE `true` BECAUSE isPremium does no yet exist as a KEY.
+    - **BRACKET notation**
+    - To enter numbers as KEYS they need to be in brackets and get turned into strings.
+    - [@16m](https://youtu.be/Dc6YcYsT3UM?t=16m) the video breaks up... (he goes over it again [@24m54s](https://youtu.be/Dc6YcYsT3UM?t=24m54s))
+    ```js
+    var squares = {};
+    squares[2] = 4;
+    squares[5] = 25;
+
+    console.log(squares); // <--- prints { '2': 4, '5': 5 }
+    ```
+  - [@16m30s](https://youtu.be/Dc6YcYsT3UM?t=16m30) example similar to homework problem
+    ```js
+    function addProperty(object, newProperty, NewValue) {
+      object[newProperty] = newValue;
+      return object; // <-----------------------NECESSARY??????
+    }
+
+    addProperty(user, 'livesInUS', false); // new property variable name entered as a string
+
+    console.log()
+    ```
+***
+      - Not sure I quite understood what he's explaining about objects and arrays in memory.
+***
+  - `delete user.likesIceCream` ONLY use delete to remove a property from an OBJECT.
+  - iterating over objects:
+  ```js
+  var user = {
+    username: 'SunJieMing',
+    password: 'password'
+    age: 99,
+    likesIceCream: true,
+    sayHi: function() {       // <----- AN "ANONYMOUS" FUNCTION inside
+      console.log('hello!');  // <----- an OBJECT is a called a METHOD
+    },
+    et: 'cetera'
+    and: 'so on'
+  }
+
+  delete user.likesIceCream;
+
+  for (var key in user) {
+    console.log('>>>key',, key);
+    console.log('>>>value', user[key]);
+  }
+
+  console.log(user);
+  ```
 
 </p></details>
 
