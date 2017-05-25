@@ -338,7 +338,7 @@ var user = {
 
     console.log(squares); // <--- prints { '2': 4, '5': 5 }
     ```
-  - [@16m30s](https://youtu.be/Dc6YcYsT3UM?t=16m30) example similar to homework problem
+  - [@16m30s](https://youtu.be/Dc6YcYsT3UM?t=16m30s) example similar to homework problem
     ```js
     function addProperty(object, newProperty, NewValue) {
       object[newProperty] = newValue;
