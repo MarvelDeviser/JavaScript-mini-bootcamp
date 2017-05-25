@@ -304,7 +304,6 @@ var obj = {
   Key: Value,
 }
 ```
-***
 ```js
 var user = {
   username: 'SunJieMing',
