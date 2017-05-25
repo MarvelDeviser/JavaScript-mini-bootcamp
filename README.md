@@ -169,7 +169,7 @@ console.log(sheCanDrive);
 
    For the homework you'll fork and clone a repository from Github, make changes until tests pass, and push the repository back up."
 - [LESSON TWO: Homework Assignment](https://github.com/SunJieMing/js-minicamp-homework-2)  
-- [LESSON TWO: Completed Homework]()  
+- [LESSON TWO: Completed Homework](https://github.com/mixelpixel/js-minicamp-homework-2/tree/master)  
 
 <details><summary><b>LESSON TWO: NOTES</b></summary><p>
 
