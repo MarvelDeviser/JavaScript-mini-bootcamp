@@ -228,7 +228,7 @@ if (age >=16 && hasDriversLicense) {
 }
 ```
 
-- [@36m](https://youtu.be/4LNf5qcQWHQ?t=36m) For loops, iterating over arrays
+- [@36m](https://youtu.be/4LNf5qcQWHQ?t=36m) For loops, iterating over arrays with index numbers.
 
 ```js
 // as long as condition is true, for loop repeats.
@@ -291,6 +291,33 @@ console.log(favFoods);
 <details><summary><b>LESSON THREE: NOTES</b></summary><p>
 
 ### LESSON THREE LECTURE NOTES
+
+when assigning variables, instead of x _equals_ 5, x **gets** 5.
+
+- [@35s](https://youtu.be/Dc6YcYsT3UM?t=35s) Lecture starts
+- [@1m34s](https://youtu.be/Dc6YcYsT3UM?t=1m34s) Objects = {Keys: Values}
+  - Named keys are similar to the array index number
+  - colons : separate the Key from the Value
+  - object.key returns the value
+```js
+var obj = {
+  Key: Value,
+}
+```
+***
+```js
+var user = {
+  username: 'SunJieMing',
+  password: 'password'
+  age: 99,
+  likesIceCream: true,
+  sayHi: function() {
+    console.log('hello!');  // <----- This is a METHOD
+  },
+  et: cetera
+  and: so_on
+}
+```
 
 </p></details>
 
