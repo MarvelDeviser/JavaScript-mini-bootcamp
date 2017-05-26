@@ -443,6 +443,142 @@ users[0].sayHi();
 ### LESSON FOUR LECTURE NOTES
 
 - [@3m30s](https://youtu.be/LowXf4APQtk?t=3m30s) Lecture Starts
+  - https://jsbin.com
+- [@4m25s](https://youtu.be/LowXf4APQtk?t=4m25s) "Truthiness" & "Falsiness"
+  - How to detect if a property exists
+  - any value can be interpreted as either a true value or a false value (or null, or undefined)
+  ```js
+  if (true) console.log('hi!')
+  ```
+  - true and !false print "hi!"
+  - false and !true don't print
+  - 0 is "falsey"
+  - non-0 numbers are "truthy" (even negative numbers)
+  - an empty string is "falsey"
+  - a string with letters or numbers is "truthy"
+  - an array [] is "truthy"
+  - an object {} is "truthy"
+  - null is "falsey"
+  ```js
+  function myFunc(x, y) {
+    if (!x) console.log('no x!');
+    if (!y) console.log('no y!');
+  }
+  ```
+- [@11m25s](https://youtu.be/LowXf4APQtk?t=11m25s) `arguments`
+  - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/arguments
+  - `arguments` keyword. Has a length property.
+  ```js
+  function sumNumbers() {
+    var total = 0;
+    for (var i = 0; i < arguments.length; i++) {
+      total += arguments[i];
+    }
+    console.log(total);
+  }
+  sumNumbers(1, 2, 3, 4, 5, 6, 6, 6, 6, 9)
+  sumNumbers(0, 5, 5)
+  ```
+- [@14m25s](https://youtu.be/LowXf4APQtk?t=14m25s) `callbacks` & `.forEach(){};`
+  - "Callbacks" are passing in a function as an argument to another functions
+  - `.forEach(function (value, index) {action});` method
+  ```js
+  var numbers = [1, 2, 3, 4,5];
+
+  numbers.push(6);
+  numbers.forEach(function (num) { // <--- just each array value
+    console.log(num); // <----- Prints each item in the array
+  });
+  ```
+  ```js
+  var numbers = [1, 2, 3, 4,5];
+
+  numbers.push(6);
+  numbers.forEach(function (num, i) { // <--- each array value AND array index
+    console.log(num + ' is at index ' + i); // <----- Prints each item in the array
+  });
+  ```
+  - ^^^ This is the preferred JS method for iterating over arrays ^^^
+  ```js
+  function invokeCallback(cb) { // <--- 'cb' is convention for indicating callback use case
+    cb();
+  }
+
+  function sayHi() {
+    console.log('hi!');
+  }
+
+  function say NiHao() {
+    console.log('ni hao!');
+  }
+
+  invokeCallback(sayHi);
+  invokeCallBack(sayNiHao);
+  ```
+- [@22m15s](https://youtu.be/LowXf4APQtk?t=22m15s) `reduce`
+  - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce
+  ```js
+  var numbers = [1, 2, 3, 4, 5];
+
+  // reduce also takes a callback function and like forEach, it iterates
+  var sum = numbers.reduce(function(runningTotal, num) {
+    return runningTotal += num;
+  });
+
+  console.log(sum);
+  ```
+- [@28m](https://youtu.be/LowXf4APQtk?t=28m) `map`
+  - iterates over array and maps values onto index locations
+  ```js
+  var name = array_name.map(function(x) {
+    return action per array index;
+  });
+  ```
+  ```js
+  var numbers = [1, 2, 3, 4, 5];
+
+  var newNums = numbers.map(function(num) {
+    return 'hi';
+  });
+
+  console.log(newNums);
+  ```
+  ```js
+  var numbers = [1, 2, 3, 4, 5];
+
+  var squares = numbers.map(function(num) {
+    return num * num;
+  });
+
+  console.log(squares);
+  ```
+- [@30m30s](https://youtu.be/LowXf4APQtk?t=30m30s) constructors & "this"
+  - Making lots of objects
+  - Pseudo Classical Instantiation
+  - Making a TEMPLATE
+  ```js
+  function encryptPassword(password) {
+    return 'ljsdnvljnqsdvqufvqnfd;vojnq;dfojnv;089247r98h9249hj';
+  }
+
+  function User(options) {
+    /* new Object() */
+    this.username = options.username;
+    this.password = encryptPassword(options.password);
+    this.email = options.email;
+    /* return Object */
+  }
+
+  var ben = new User({
+    username: 'SunJieMing',
+    password: 'I love JS!',
+    email: 'ben@lambdaschool.com'
+  });
+
+  console.log(ben);
+  ```
+  - ES6 syntactic sugar?
+
 
 </p></details>
 
