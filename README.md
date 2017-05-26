@@ -386,7 +386,7 @@ var user = {
   - use dot notation unless it doesn't work, then use brackets
   - [@28m22s](https://youtu.be/Dc6YcYsT3UM?t=28m22s) **this**
   ```js
-  var user = [
+  var users = [
   {
     username: 'SunJieMing',
     password: 'password',
