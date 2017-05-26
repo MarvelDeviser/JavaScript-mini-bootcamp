@@ -438,7 +438,7 @@ users[0].sayHi();
 - [LESSON FOUR: Homework Assignment](https://github.com/SunJieMing/js-minicamp-homework-4)  
 - [LESSON FOUR: Completed Homework]()  
 
-<details><summary><b>LESSON THREE: NOTES</b></summary><p>
+<details><summary><b>LESSON FOUR: NOTES</b></summary><p>
 
 ### LESSON FOUR LECTURE NOTES
 
