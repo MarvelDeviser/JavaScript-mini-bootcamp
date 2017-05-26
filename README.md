@@ -431,7 +431,7 @@ users[0].sayHi();
 
 <details><summary>git and GitHub</summary><p>
 
-I initialized this repository as a local `git init` and **_then_** set up the GitHub repository.  
+### I initialized this repository as a local `git init` and **_then_** set up the GitHub repository.  
 - `mkdir JavaScript-mini-bootcamp`
 - `cd JavaScript-mini-bootcamp`
 - `git init`
@@ -448,13 +448,18 @@ I initialized this repository as a local `git init` and **_then_** set up the Gi
 
 Per: https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/  
 
-For Homework #2 I made a submodule.  
+### For Homework #1 & #2 I made a submodule.  
 Per: https://github.com/mixelpixel/js-minicamp-homework-2.git
 - Fork https://github.com/SunJieMing/js-minicamp-homework-2
 - ...creating: https://github.com/mixelpixel/js-minicamp-homework-2
 - copied URL
 - `$  git submodule add https://github.com/mixelpixel/js-minicamp-homework-2.git`
 - `git status`
+
+### For Homework #3 I nested a cloned fork.
+- Mostly just to see if there was any noticeable difference in commits/pushes.
+- Seems like the nested repo on github is not linked, just noted...
+- I might delete this and sub-module cuz I like that on GitHub I can descend into the submodule (even if I can't ascend out of it...)
 
 
 
