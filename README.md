@@ -2,6 +2,9 @@
 
 https://lambdaschool.com/mini-bootcamp/javascript
 
+### JavaScript Standards
+- https://www.ecma-international.org/ecma-262/7.0/
+- https://developer.mozilla.org/en/docs/Web/JavaScript
 ***
 
 # Lesson One
@@ -425,7 +428,7 @@ users[0].sayHi();
 
 </p></details>
 
-# Lesson FOUR
+# Lesson Four
 ## "Advanced JavaScript"
 - [LESSON FOUR LECTURE](https://youtu.be/LowXf4APQtk)
 
