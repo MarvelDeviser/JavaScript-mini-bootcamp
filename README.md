@@ -471,7 +471,7 @@ users[0].sayHi();
 Per: https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/  
 
 ### For Homework #2 I made a submodule.  
-Per: https://github.com/mixelpixel/js-minicamp-homework-2.git
+Per: https://git-scm.com/book/en/v2/Git-Tools-Submodules
 - Fork https://github.com/SunJieMing/js-minicamp-homework-2
 - ...creating: https://github.com/mixelpixel/js-minicamp-homework-2
 - copied URL
@@ -484,6 +484,12 @@ Per: https://github.com/mixelpixel/js-minicamp-homework-2.git
 - I might delete this and sub-module cuz I like that on GitHub I can descend into the submodule (even if I can't ascend out of it...)
 
 ### For Homework #4 I submoduled a fork.
+Per: https://git-scm.com/book/en/v2/Git-Tools-Submodules
+- Fork https://github.com/SunJieMing/js-minicamp-homework-4
+- ...creating: https://github.com/mixelpixel/js-minicamp-homework-4
+- copied URL
+- `$  git submodule add https://github.com/mixelpixel/js-minicamp-homework-4.git`
+- `git status`
 
 </p></details>
 
