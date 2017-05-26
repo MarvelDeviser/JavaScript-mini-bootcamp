@@ -353,29 +353,75 @@ var user = {
       - Not sure I quite understood what he's explaining about objects and arrays in memory.
 ***
   - `delete user.likesIceCream` ONLY use delete to remove a property from an OBJECT.
-  - iterating over objects:
+  - [@23m](https://youtu.be/Dc6YcYsT3UM?t=23m) For-In Loops - Iterating over objects:
+  ```js
+  for (var key in object) {
+    action;
+  }
+  ```
   ```js
   var user = {
     username: 'SunJieMing',
-    password: 'password'
+    password: 'password',
     age: 99,
     likesIceCream: true,
     sayHi: function() {       // <----- AN "ANONYMOUS" FUNCTION inside
       console.log('hello!');  // <----- an OBJECT is a called a METHOD
     },
-    et: 'cetera'
+    et: 'cetera',
     and: 'so on'
   }
 
   delete user.likesIceCream;
 
-  for (var key in user) {
-    console.log('>>>key',, key);
-    console.log('>>>value', user[key]);
+  for (var key in user) { //                 <--- iterate over an object
+    console.log('>>>key', key); //           <---
+    console.log('>>>value', user[key]); //   <--- bracket notation
   }
 
   console.log(user);
   ```
+  - `user['username']` <----- THESE ARE EQUIVALENT
+  - `user.username`    <----- THESE ARE EQUIVALENT
+  - use dot notation unless it doesn't work, then use brackets
+  - [@28m22s](https://youtu.be/Dc6YcYsT3UM?t=28m22s) **this**
+  ```js
+  var user = [
+  {
+    username: 'SunJieMing',
+    password: 'password',
+    age: 99,
+    likesIceCream: true,
+    sayHi: function() {
+      var sentence = 'My username is: ' + this.username;
+      console.log(sentence);
+    },
+    et: 'cetera',
+    and: 'so on'
+  },
+  {},
+  {},
+  {}
+];
+
+users[0].sayHi();
+```
+- [@33m18s](https://youtu.be/Dc6YcYsT3UM?t=33m18s) REVIEW
+  - to create an object
+  ```js
+  var user = {};
+  user.username = 'Ben';
+  user.email = 'ben@lambdaschool.com';
+  ```
+  OR
+  ```js
+  var user = {;
+    username: 'Ben',
+    email: 'ben@lambdaschool.com'  
+  }
+  ```
+- Math is a global object, console is a global object, modules, etc.
+- [@36m](https://youtu.be/Dc6YcYsT3UM?t=36m) LINTer
 
 </p></details>
 
