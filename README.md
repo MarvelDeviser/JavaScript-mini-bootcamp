@@ -578,6 +578,8 @@ users[0].sayHi();
   console.log(ben);
   ```
   - ES6 syntactic sugar?
+    - http://es6-features.org/#ClassDefinition
+    - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes
 
 
 </p></details>
