@@ -286,7 +286,7 @@ console.log(favFoods);
 
    For the homework you'll fork and clone a repository from Github, make changes until tests pass, and push the repository back up."
 - [LESSON THREE: Homework Assignment](https://github.com/SunJieMing/js-minicamp-homework-3)  
-- [LESSON THREE: Completed Homework]()  
+- [LESSON THREE: Completed Homework](https://github.com/mixelpixel/js-minicamp-homework-3)  
 
 <details><summary><b>LESSON THREE: NOTES</b></summary><p>
 
@@ -424,6 +424,25 @@ users[0].sayHi();
 - [@36m](https://youtu.be/Dc6YcYsT3UM?t=36m) LINTer
 
 </p></details>
+
+# Lesson FOUR
+## "Advanced JavaScript"
+- [LESSON FOUR LECTURE](https://youtu.be/LowXf4APQtk)
+
+   "The final lesson of the four-part LambdaSchool Mini Bootcamp covers Callback Functions, Closure, arguments array, recursion, prototype, and constructors.
+
+   For the homework you'll fork and clone a repository from Github, make changes until tests pass, and push the repository back up."
+- [LESSON FOUR: Homework Assignment](https://github.com/SunJieMing/js-minicamp-homework-4)  
+- [LESSON FOUR: Completed Homework]()  
+
+<details><summary><b>LESSON THREE: NOTES</b></summary><p>
+
+### LESSON FOUR LECTURE NOTES
+
+- [@3m30s](https://youtu.be/LowXf4APQtk?t=3m30s) Lecture Starts
+
+</p></details>
+
 
 ***
 
