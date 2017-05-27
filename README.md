@@ -649,6 +649,32 @@ users[0].sayHi();
 
   snowballIII.meow();
   ```
+- [@44m20s](https://youtu.be/LowXf4APQtk?t=44m20s) Prototype
+```js
+function Cat (options) {
+  this.name = options.name;
+  this.age = options.age;
+}
+
+Cat.prototype.meow = function() {
+  console.log(this.name + ' says, \"Meow! I am ' + this.age + ' years old.\"');
+}
+
+var snowballII = new Cat({
+  name: 'Snowball II',
+  age: 5
+});
+
+snowballII.meow();
+
+var snowballIII = new Cat({
+name: 'Snowball III',
+age: 2
+});
+
+snowballIII.meow();
+```
+
 
 
 </p></details>
