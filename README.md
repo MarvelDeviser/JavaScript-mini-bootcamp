@@ -609,8 +609,47 @@ users[0].sayHi();
   });
 
   console.log(austen);
-
   ```
+- [@39m30s](https://youtu.be/LowXf4APQtk?t=39m30s) Add a method to all the objects we create
+  ```js
+  function Cat (options) {
+    this.name = options.nae;
+    this.age = options.age;
+  }
+
+  var pet_cat = [];
+
+  pet_cat.push(new Cat({
+    name: 'Snowball II',
+    age: 5
+  }));
+
+  console.log(pet_cat);
+  ```
+  ```js
+  function Cat (options) {
+    this.name = options.name;
+    this.age = options.age;
+    this.meow = function() {
+      console.log(this.name + ' says, \"Meow! I am ' + this.age + ' years old.\"');
+    }
+  }
+
+  var snowballII = new Cat({
+    name: 'Snowball II',
+    age: 5
+  });
+
+  snowballII.meow();
+
+  var snowballIII = new Cat({
+  name: 'Snowball III',
+  age: 2
+  });
+
+  snowballIII.meow();
+  ```
+
 
 </p></details>
 
