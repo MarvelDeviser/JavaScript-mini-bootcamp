@@ -556,6 +556,7 @@ users[0].sayHi();
   - Making lots of objects
   - Pseudo Classical Instantiation
   - Making a TEMPLATE
+  - Constructors are Upper Case.
   ```js
   function encryptPassword(password) {
     return 'ljsdnvljnqsdvqufvqnfd;vojnq;dfojnv;089247r98h9249hj';
