@@ -581,7 +581,36 @@ users[0].sayHi();
   - ES6 syntactic sugar?
     - http://es6-features.org/#ClassDefinition
     - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes
+  ```js
+  function encryptPassword(password) {
+    return 'ljsdnvljnqsdvqufvqnfd;vojnq;dfojnv;089247r98h9249hj';
+  }
 
+  function User(options) {
+    /* new Object() */
+    this.username = options.username;
+    this.password = encryptPassword(options.password);
+    this.email = options.email;
+    /* return Object */
+  }
+
+  var ben = new User({
+    username: 'SunJieMing',
+    password: 'I love JS!',
+    email: 'ben@lambdaschool.com'
+  });
+
+  console.log(ben);
+
+  var austen = new User({
+    username: 'Austen',
+    password: '12345',
+    email: 'austen@lambdaschool.com'
+  });
+
+  console.log(austen);
+
+  ```
 
 </p></details>
 
