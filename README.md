@@ -644,7 +644,7 @@ age: 2
 
 snowballIII.meow();
 ```
-  - This is how Arrays have prototypes, same with a string, e.g.
+  - This is how Arrays have prototypes ("same with a string" not sure what Ben meant by this - ) e.g.
     - Array.prototype
     - Array is a built in JS keyword, Array.prototype is a constructor which is used behind the scenes to construct all arrays: `var arr = [];` => `var arr = new(Array);`
     ```js
