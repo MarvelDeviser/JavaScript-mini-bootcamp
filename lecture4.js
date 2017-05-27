@@ -62,3 +62,14 @@ age: 2
 });
 
 snowballIII.meow();
+
+
+Array.prototype.sayHi = function() { // <--- upper case Array is a reserved word
+  console.log('I\'m on the array!');
+}
+
+var array = [1, 2, 3, 4]; // <-------------- lower case array not reserved
+
+array.sayHi();
+
+console.log(array);
