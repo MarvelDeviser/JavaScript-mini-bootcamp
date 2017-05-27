@@ -436,7 +436,7 @@ users[0].sayHi();
 
    For the homework you'll fork and clone a repository from Github, make changes until tests pass, and push the repository back up."
 - [LESSON FOUR: Homework Assignment](https://github.com/SunJieMing/js-minicamp-homework-4)  
-- [LESSON FOUR: Completed Homework]()  
+- [LESSON FOUR: Completed Homework](https://github.com/mixelpixel/js-minicamp-homework-4)  
 
 <details><summary><b>LESSON FOUR: NOTES</b></summary><p>
 
