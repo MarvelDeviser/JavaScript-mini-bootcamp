@@ -23,35 +23,31 @@ https://lambdaschool.com/mini-bootcamp/javascript
 <details><summary><b>LESSON ONE: NOTES</b></summary><p>
 
 ### LESSON ONE LECTURE NOTES
+- [@07min](https://youtu.be/fjjebMXE-P8?t=7m) **Lecture starts**
+- [@8m20s](https://youtu.be/fjjebMXE-P8?t=8m20s) **Node.js**
+  - Download node from [nodejs.org](https://nodejs.org)
+  - To exit the node interactive shell, type `.exit` or send EOL with ctrl+d, or ctrl+c twice.
+- [@09min](https://youtu.be/fjjebMXE-P8?t=9) **command line basics**
+- [@11min](https://youtu.be/fjjebMXE-P8?t=11) **`var` and `console.log();`**
+  - JS declaring variables with "var" keyword & using console.log() for printing to screen/stdout.
+  - JS is not "strongly Typed" - var works for eVARy data type (as opposed to C where each variable is declared along with its data type.)
+  ```js
+  var variable_name   = 'something'; // strings
+  var favorite_number = 15;          // integers
+  var likesPizza      = true;        // Boolean
+  var age             = 30;
+  var age             = age + 10;    // arithmetic + - / *
+  var remainder       = 20 % 7       // % modular arithmetic returns the remainder
 
-- To exit the node interactive shell, type `.exit` or send EOL with ctrl+d, or ctrl+c twice.
+  console.log(variable_name);
+  console.log(favorite_number);
+  console.log(likesPizza);
+  console.log(age);
+  console.log(remainder):
 
-- [@07min](https://youtu.be/fjjebMXE-P8?t=7m) Lecture starts
-- [@8m20s](https://youtu.be/fjjebMXE-P8?t=8m20s) download node from [nodejs.org](https://nodejs.org)
-- [@09min](https://youtu.be/fjjebMXE-P8?t=9) command line basics
-- [@11min](https://youtu.be/fjjebMXE-P8?t=11) JS declaring variables with "var" keyword & using console.log() for printing to screen/stdout.
-
-JS is not "strongly Typed" - var works for eVARy data type (as opposed to C where each variable is declared along with its data type.)
-
-```js
-var variable_name   = 'something'; // strings
-var favorite_number = 15;          // integers
-var likesPizza      = true;        // Boolean
-var age             = 30;
-var age             = age + 10;    // arithmetic + - / *
-var remainder       = 20 % 7       // % modular arithmetic returns the remainder
-
-console.log(variable_name);
-console.log(favorite_number);
-console.log(likesPizza);
-console.log(age);
-console.log(remainder):
-
-etc...
-```
-
-- [@26min](https://youtu.be/fjjebMXE-P8?t=26) Concatenation
-
+  // etc...
+  ```
+- [@26min](https://youtu.be/fjjebMXE-P8?t=26) **Concatenation**
 ```js
 var firstName = 'Ben';
 var lastName = 'Nelson';
@@ -59,14 +55,14 @@ var fullName = firstName + ' ' + lastName;
 
 console.log(fullName);
 ```
+- [@28m20s](https://youtu.be/fjjebMXE-P8?t=28m20s) **Global Objects, methods and properties**
+  - e.g. the "Math" object with methods: powers, round, ceil, floor, etc.
 
-- [@28m20s](https://youtu.be/fjjebMXE-P8?t=28m20s) Global Objects, methods and properties, e.g. the "Math" object with methods: powers, round, ceil, floor, etc.
+  ```js
+  var twoCubed = Math.pow(2, 3);
 
-```js
-var twoCubed = Math.pow(2, 3);
-
-console.log(twoCubed);
-```
+  console.log(twoCubed);
+  ```
 - [@31m25s](https://youtu.be/fjjebMXE-P8?t=31m25s) All strings have the property: Length
 ```js
 var greeting = "Hello World!";
@@ -74,9 +70,7 @@ var greetingLength = greeting.length;
 
 console.log(greetingLength);
 ```
-
-- [@32m45s](https://youtu.be/fjjebMXE-P8?t=32m45s) Function
-
+- [@32m45s](https://youtu.be/fjjebMXE-P8?t=32m45s) **Function**
 ```js
 function funcName() {
   console.log('Hello');
@@ -85,9 +79,7 @@ function funcName() {
 console.log('Hi'); // gets printed first
 funcName(); // invokes the function
 ```
-
-- [@8m20s](https://youtu.be/fjjebMXE-P8?t=8m20s) Function Arguments, using keyword "function", function naming conventions (actions) and camelCase.
-
+- [@8m20s](https://youtu.be/fjjebMXE-P8?t=8m20s) **Function Arguments**, using keyword "function", function naming conventions (actions) and camelCase.
 ```js
 function funcName(argument) {
   var greeting = 'Hello ' + argument);
@@ -102,9 +94,7 @@ funcName('Bob');
 funcName('Alice');
 funcName('Betty');
 ```
-
--  [@45min](https://youtu.be/fjjebMXE-P8?t=45m) Return
-
+-  [@45min](https://youtu.be/fjjebMXE-P8?t=45m) **Return**
 ```js
 function addTwoNumbers(x,y) {
   // console.log(x, y);
@@ -118,9 +108,7 @@ var value = addTwoNumbers(3,4);
 
 console.log(value);
 ```
-
-- [@50min](https://youtu.be/fjjebMXE-P8?t=50m) Scope
-
+- [@50min](https://youtu.be/fjjebMXE-P8?t=50m) **Scope**
 ```js
 function addTwoNumbers(x,y) {
   // console.log(x, y);
@@ -133,8 +121,7 @@ console.log(value);
 
 console.log(sum);  // <--- "sum" is scoped inside the function. NOT accessible outside the function.
 ```
-- [@51m30s](https://youtu.be/fjjebMXE-P8?t=51m30s) Branching Control Flow
-
+- [@51m30s](https://youtu.be/fjjebMXE-P8?t=51m30s) **Branching Control Flow**
 ```js
 function canDrive(age) {
   if (age >= 16) {
@@ -155,10 +142,8 @@ var herAge = 16;
 var sheCanDrive = canDrive(herAge);
 console.log(sheCanDrive);
 ```
-
-- [@57m45s](https://youtu.be/fjjebMXE-P8?t=57m45s) Homework on github, npm install (comes with node), `npm test`, etc.
-
-- [@1h9m](https://youtu.be/fjjebMXE-P8?t=1h9m) Q&A
+- [@57m45s](https://youtu.be/fjjebMXE-P8?t=57m45s) **Homework on github**, npm install (comes with node), `npm test`, etc.
+- [@1h9m](https://youtu.be/fjjebMXE-P8?t=1h9m) **Q&A**
 
 </p></details>
 
@@ -177,18 +162,13 @@ console.log(sheCanDrive);
 <details><summary><b>LESSON TWO: NOTES</b></summary><p>
 
 ### LESSON TWO LECTURE NOTES
-
 - NOTE: ALWAYS USE TRIPLE EQUALS === NOT DOUBLE EQUALS == !!!!!  
-
-- [@2m30s](https://youtu.be/4LNf5qcQWHQ?t=2m30s) Lecture starts
-
-- [@3m35s](https://youtu.be/4LNf5qcQWHQ?t=3m35s) `git` & GitHub  
+- [@2m30s](https://youtu.be/4LNf5qcQWHQ?t=2m30s) **Lecture starts**
+- [@3m35s](https://youtu.be/4LNf5qcQWHQ?t=3m35s) **`git` & GitHub**
   GitHub is online storage.  
   `git` is the version control software.  
   Forking, downloading/cloning, status, staging, add, commit comments, resetting, branch master, origin master, push, pull request, branchin and merge  
-
-- [@18m30s](https://youtu.be/4LNf5qcQWHQ?t=18m30s) Conditionals If, Else, Else-If
-
+- [@18m30s](https://youtu.be/4LNf5qcQWHQ?t=18m30s) **Conditionals If, Else, Else-If**
 ```js
 if (true) {
   do this
@@ -196,7 +176,6 @@ if (true) {
   do that
 }
 ```
-
 ```js
 var food = 'Pizza';
 
@@ -206,7 +185,6 @@ if (food === 'Pizza') {
   console.log('I would rather have pizza...');
 }
 ```
-
 ```js
 var food = 'Pizza';
 
@@ -218,7 +196,6 @@ if (food === 'Pizza') {
   console.log('I would rather have pizza...');
 }
 ```
-
 ```js
 var age = 16;
 var hasDriversLicense = true;
@@ -230,22 +207,18 @@ if (age >=16 && hasDriversLicense) {
   console.log('Call your mom to pick you up.');
 }
 ```
-
-- [@36m](https://youtu.be/4LNf5qcQWHQ?t=36m) For loops, iterating over arrays with index numbers.
-
+- [@36m](https://youtu.be/4LNf5qcQWHQ?t=36m) **For loops**, iterating over arrays with index numbers.
 ```js
 // as long as condition is true, for loop repeats.
 for (var initial value; condition; iteration action) {
     do someting;
 }
 ```
-
 ```js
 for (var i = 0; 1 < 10; i++) {
     console.log(i + '. hi!');
 }
 ```
-
 ```js
 var favFoods = ['Steak', 'Mango', 'Curry']; // [[0], [1], [2], ...]] array
 
@@ -253,7 +226,6 @@ console.log(favFoods.length);
 console.log(favFoods[0]);
 console.log(favFoods[favFoods.length -1]); // always gives last item
 ```
-
 ```js
 var favFoods = ['Steak', 'Mango', 'Curry'];
 
@@ -264,7 +236,6 @@ for (var i = 0; i < favFoods.length; i++) {
   console.log(favFoods[i]);
 }
 ```
-
 ```js
 var favFoods = ['Steak', 'Mango', 'Curry'];
 
@@ -274,8 +245,7 @@ console.log(favFoods);
 favFoods.pop();            // .pop() removes item from the end
 console.log(favFoods);
 ```
-
-- [@56m](https://youtu.be/4LNf5qcQWHQ?t=56m) Q&A
+- [@56m](https://youtu.be/4LNf5qcQWHQ?t=56m) **Q&A**
 
 </p></details>
 
@@ -297,8 +267,8 @@ console.log(favFoods);
 
 when assigning variables, instead of x _equals_ 5, x **gets** 5.
 
-- [@35s](https://youtu.be/Dc6YcYsT3UM?t=35s) Lecture starts
-- [@1m34s](https://youtu.be/Dc6YcYsT3UM?t=1m34s) Objects = {Keys: Values}
+- [@35s](https://youtu.be/Dc6YcYsT3UM?t=35s) **Lecture starts**
+- [@1m34s](https://youtu.be/Dc6YcYsT3UM?t=1m34s) **Objects = {Keys: Values}**
   - Named keys are similar to the array index number
   - colons : separate the Key from the Value
   - object.key returns the value
@@ -356,7 +326,7 @@ var user = {
       - Not sure I quite understood what he's explaining about objects and arrays in memory.
 ***
   - `delete user.likesIceCream` ONLY use delete to remove a property from an OBJECT.
-  - [@23m](https://youtu.be/Dc6YcYsT3UM?t=23m) For-In Loops - Iterating over objects:
+  - [@23m](https://youtu.be/Dc6YcYsT3UM?t=23m) **For-In Loops** - Iterating over objects:
   ```js
   for (var key in object) {
     action;
@@ -409,7 +379,7 @@ var user = {
 
 users[0].sayHi();
 ```
-- [@33m18s](https://youtu.be/Dc6YcYsT3UM?t=33m18s) REVIEW
+- [@33m18s](https://youtu.be/Dc6YcYsT3UM?t=33m18s) **REVIEW**
   - to create an object
   ```js
   var user = {};
@@ -424,7 +394,7 @@ users[0].sayHi();
   }
   ```
 - Math is a global object, console is a global object, modules, etc.
-- [@36m](https://youtu.be/Dc6YcYsT3UM?t=36m) LINTer
+- [@36m](https://youtu.be/Dc6YcYsT3UM?t=36m) **LINTer**
 
 </p></details>
 
@@ -778,7 +748,6 @@ snowballIII.meow();
   newSayHi(); // Tried invoking it 10 times, but only 5 will run!
   ```
 - Note about homework ~1h00m00s
-
 - [@1h01m13s](https://youtu.be/LowXf4APQtk?t=1h01m13s) **RECURSION**
   - essentially it's another way of iterating (looping)
   - depending on the situation, recursion can be simpler (less code) than a for-loop - especially if you've got a big complicated function.
@@ -798,9 +767,7 @@ snowballIII.meow();
   - recursive function can get out of hand if the "call stack" is too big.
 - [@1h12m](https://youtu.be/LowXf4APQtk?t=1h12m) Wrap up
 
-
 </p></details>
-
 
 ***
 
@@ -822,7 +789,6 @@ snowballIII.meow();
 - `git remote add origin https://github.com/mixelpixel/JavaScript-mini-bootcamp.git`
 - `git remote -v`
 - `git push -u origin master`
-
 Per: https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/  
 
 ### Homework #1 was downloaded from SunJieMing's site (not forked)
@@ -831,7 +797,6 @@ Per: https://help.github.com/articles/adding-an-existing-project-to-github-using
 - the "Download Zip" folder came with the appended "-master"
 - The downloaded files were placed in my local JavaScript-mini-bootcamp repository
 - The downloaded files were git add, commit, pushed...
-
 
 ### For Homework #2 I made a submodule.  
 Per: https://git-scm.com/book/en/v2/Git-Tools-Submodules
