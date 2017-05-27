@@ -17,12 +17,36 @@ var ben = new User({
 console.log(ben);
 
 
+// function Cat (options) {
+//   this.name = options.name;
+//   this.age = options.age;
+//   this.meow = function() {
+//     console.log(this.name + ' says, \"Meow! I am ' + this.age + ' years old.\"');
+//   }
+// }
+//
+// var snowballII = new Cat({
+//   name: 'Snowball II',
+//   age: 5
+// });
+//
+// snowballII.meow();
+//
+// var snowballIII = new Cat({
+// name: 'Snowball III',
+// age: 2
+// });
+//
+// snowballIII.meow();
+
+
 function Cat (options) {
   this.name = options.name;
   this.age = options.age;
-  this.meow = function() {
-    console.log(this.name + ' says, \"Meow! I am ' + this.age + ' years old.\"');
-  }
+}
+
+Cat.prototype.meow = function() {
+  console.log(this.name + ' says, \"Meow! I am ' + this.age + ' years old.\"');
 }
 
 var snowballII = new Cat({
