@@ -215,7 +215,7 @@ for (var initial value; condition; iteration action) {
 }
 ```
 ```js
-for (var i = 0; 1 < 10; i++) {
+for (var i = 0; i < 10; i++) {
     console.log(i + '. hi!');
 }
 ```
