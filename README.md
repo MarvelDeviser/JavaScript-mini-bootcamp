@@ -674,6 +674,82 @@ age: 2
 
 snowballIII.meow();
 ```
+  - This is how Arrays have prototypes, same with a string, e.g.
+    - Array.prototype
+    - Array is a built in JS keyword, Array.prototype is a constructor which is used behind the scenes to construct all arrays: `var arr = [];` => `var arr = new(Array);`
+    ```js
+    Array.prototype.sayHi = function() { // <--- upper case Array is a reserved word
+      console.log('I\'m on the array!');
+    }
+
+    var array = [1, 2, 3, 4]; // <-------------- lower case array not reserved
+
+    array.sayHi();
+
+    console.log(array);
+    ```
+  - [@49m](https://youtu.be/LowXf4APQtk?t=49m) Closure
+    - returning functions and the SCOPE of variables
+    ```js
+    function outer() {
+      return function() {
+        console.log('hi there!');
+      };
+    }
+
+    var inner = outer();
+
+    inner();
+
+    var innerSameFunction = function() {
+      console.log('hi there!');
+    };
+
+    innerSameFunction();
+    ```
+- WRAPPERS AROUND CALLBACK FUNCTIONS
+  - If you return a function from a function the inner function remembers the SCOPE of the outer function.
+  ```js
+  var x = 5            // <--- x can't see vars inside the functions, but
+
+  function outer(){
+    x;        
+    var y = 10;        // <--- inside the function they can see x
+    function inner(){
+      x;               // <--- inside the inside function too!
+      y;               // <--- inner function can see outer functions variable
+      var z = 15;      // <--- inner variable only available to inner function
+    }
+  }
+  ```
+  ```js
+  function outer() {
+    var x = 10;
+    return function() {
+      console.log(x);
+    };
+  }
+
+  var inner = outer();
+
+  inner();
+  ```
+  - Cool Closure trick:
+  ```js
+  function limitFunctionCallCount(cb) {
+    return function() {
+      cb();
+    };
+  }
+
+  function sayHi() {
+    console.log('hi!');
+  }
+
+  var newSayHi = limitFunctionCallCount(sayHi);
+
+  newsayHi();
+  ```
 
 
 
