@@ -748,7 +748,7 @@ snowballIII.meow();
 
   var newSayHi = limitFunctionCallCount(sayHi);
 
-  newsayHi();
+  newSayHi();
   ```
 
 
@@ -778,6 +778,14 @@ snowballIII.meow();
 - `git push -u origin master`
 
 Per: https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/  
+
+### Homework #1 was downloaded from SunJieMing's site (not forked)
+- Note the appended "-master" in the url ()& local repo):
+- https://github.com/mixelpixel/JavaScript-mini-bootcamp/tree/master/js-minicamp-homework-1-master
+- the "Download Zip" folder came with the appended "-master"
+- The downloaded files were placed in my local JavaScript-mini-bootcamp repository
+- The downloaded files were git add, commit, pushed...
+
 
 ### For Homework #2 I made a submodule.  
 Per: https://git-scm.com/book/en/v2/Git-Tools-Submodules
