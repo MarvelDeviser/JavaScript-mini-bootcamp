@@ -780,7 +780,22 @@ snowballIII.meow();
 - Note about homework ~1h00m00s
 
 - [@1h01m13s](https://youtu.be/LowXf4APQtk?t=1h01m13s) RECURSION
+  - essentially it's another way of iterating (looping)
+  - depending on the situation, recursion can be simpler (less code) than a for-loop - especially if you've got a big complicated function.
+  ```js
+  // 1,   1,   2,   3,   5,   8,   13,  21, etc...  (Fibbonacci values)
+  // 1st, 2nd, 3rd, 4th, 5th, 6th, 7th, 8th, etc... [position, nth Fibbo #]
+  function nFibbonacci(n) {   // <---- calculating the nth Fibbonacci #
+    if (n < 3) return 1;      // <-------------------- ********BASE CASE********
+    return nFibbonacci(n - 2) + nFibbonacci(n - 1);
+  }
 
+  var result = nFibbonacci(3);
+
+  console.log(result);
+  ```
+  - BASE CASE is like the condition which stops the for loop
+  - recursive function can get out of hand if the "call stack" is too big.
 
 
 
