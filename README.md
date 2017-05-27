@@ -688,25 +688,25 @@ snowballIII.meow();
 
     console.log(array);
     ```
-  - [@49m](https://youtu.be/LowXf4APQtk?t=49m) Closure
-    - returning functions and the SCOPE of variables
-    ```js
-    function outer() {
-      return function() {
-        console.log('hi there!');
-      };
-    }
-
-    var inner = outer();
-
-    inner();
-
-    var innerSameFunction = function() {
+- [@49m](https://youtu.be/LowXf4APQtk?t=49m) Closure
+  - returning functions and the SCOPE of variables
+  ```js
+  function outer() {
+    return function() {
       console.log('hi there!');
     };
+  }
 
-    innerSameFunction();
-    ```
+  var inner = outer();
+
+  inner();
+
+  var innerSameFunction = function() {
+    console.log('hi there!');
+  };
+
+  innerSameFunction();
+  ```
 - WRAPPERS AROUND CALLBACK FUNCTIONS
   - If you return a function from a function the inner function remembers the SCOPE of the outer function.
   ```js
@@ -750,6 +750,37 @@ snowballIII.meow();
 
   newSayHi();
   ```
+  ```js
+  function limitFunctionCallCount(cb, limit) {
+    var callCount = 0
+    return function() {
+      if (callCount >= limit) return;
+      callCount++;
+      cb();
+    };
+  }
+
+  function sayHi() {
+    console.log('hi!');
+  }
+
+  var newSayHi = limitFunctionCallCount(sayHi, 5);
+
+  newSayHi();
+  newSayHi();
+  newSayHi();
+  newSayHi();
+  newSayHi();
+  newSayHi();
+  newSayHi();
+  newSayHi();
+  newSayHi();
+  newSayHi(); // Tried invoking it 10 times, but only 5 will run!
+  ```
+- Note about homework ~1h00m00s
+
+- [@1h01m13s](https://youtu.be/LowXf4APQtk?t=1h01m13s) RECURSION
+
 
 
 
