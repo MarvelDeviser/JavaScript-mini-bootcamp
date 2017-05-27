@@ -683,8 +683,8 @@ snowballIII.meow();
   var x = 5            // <--- x can't see vars inside the functions, but
 
   function outer(){
-    x;        
-    var y = 10;        // <--- inside the function they can see x
+    x;                 // <--- inside the function they can see x (but not var z?)
+    var y = 10;
     function inner(){
       x;               // <--- inside the inside function too!
       y;               // <--- inner function can see outer functions variable
