@@ -552,9 +552,9 @@ users[0].sayHi();
 
   console.log(squares);
   ```
-- [@30m30s](https://youtu.be/LowXf4APQtk?t=30m30s) constructors & "this"
+- [@30m30s](https://youtu.be/LowXf4APQtk?t=30m30s) CONSTRUCTORs & "this"
   - Making lots of objects
-  - Pseudo Classical Instantiation
+  - Pseudo Classical Instantiation  
   - Making a TEMPLATE
   - Constructors are Upper Case.
   ```js
@@ -649,7 +649,7 @@ users[0].sayHi();
 
   snowballIII.meow();
   ```
-- [@44m20s](https://youtu.be/LowXf4APQtk?t=44m20s) Prototype
+- [@44m20s](https://youtu.be/LowXf4APQtk?t=44m20s) PROTOTYPE
 ```js
 function Cat (options) {
   this.name = options.name;
@@ -688,7 +688,7 @@ snowballIII.meow();
 
     console.log(array);
     ```
-- [@49m](https://youtu.be/LowXf4APQtk?t=49m) Closure
+- [@49m](https://youtu.be/LowXf4APQtk?t=49m) CLOSURE
   - returning functions and the SCOPE of variables
   ```js
   function outer() {
