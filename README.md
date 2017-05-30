@@ -1,22 +1,20 @@
 # [JavaScript](https://www.javascript.com) Mini-BootCamp
-
-https://lambdaschool.com/mini-bootcamp/javascript
-
+- https://lambdaschool.com/mini-bootcamp/javascript
+##### https://github.com/mixelpixel/JavaScript-mini-bootcamp#lesson-one
+##### https://github.com/mixelpixel/JavaScript-mini-bootcamp#lesson-two
+##### https://github.com/mixelpixel/JavaScript-mini-bootcamp#lesson-three
+##### https://github.com/mixelpixel/JavaScript-mini-bootcamp#lesson-four
+##### https://github.com/mixelpixel/JavaScript-mini-bootcamp#git--github-notes
 ### JavaScript Standards
 - https://www.ecma-international.org/ecma-262/7.0/
 - https://developer.mozilla.org/en/docs/Web/JavaScript
 ***
-
 # Lesson One
 ## "Introduction to JavaScript"
 - [LESSON ONE LECTURE](https://youtu.be/fjjebMXE-P8)
-
-   "This introductory lesson covers variables and operators, functions, data types, and the Math object. It also touches lightly on Node, GitHub, and npm.
-
-   By the time you finish this lesson (and the accompanying homework) you should have a firm grasp of the fundamental elements of the JavaScript language. You'll have your environment set up, and you'll get a short introduction into test driven development; a lot of ground to cover in only a few short minutes.
-
-   The homework includes initial JavaScript environment setup, and requires you to create Feynman writing prompts, then code those concepts."
-
+   > "This introductory lesson covers variables and operators, functions, data types, and the Math object. It also touches lightly on Node, GitHub, and npm.
+   > By the time you finish this lesson (and the accompanying homework) you should have a firm grasp of the fundamental elements of the JavaScript language. You'll have your environment set up, and you'll get a short introduction into test driven development; a lot of ground to cover in only a few short minutes.
+   > The homework includes initial JavaScript environment setup, and requires you to create Feynman writing prompts, then code those concepts."
 - [LESSON ONE: Homework Assignment](https://github.com/SunJieMing/js-minicamp-homework-1)
 - [LESSON ONE: Completed Homework](https://github.com/mixelpixel/JavaScript-mini-bootcamp/tree/master/js-minicamp-homework-1-master)
 
@@ -148,14 +146,11 @@ console.log(sheCanDrive);
 </p></details>
 
 ***
-
 # Lesson Two
 ## "Control Flow in JavaScript & `git` / GitHub"
 - [LESSON TWO LECTURE](https://youtu.be/4LNf5qcQWHQ)
-
-   "This lesson covers git and Github, loops, if/then/else statements, &, ||, !=, and other concepts.
-
-   For the homework you'll fork and clone a repository from Github, make changes until tests pass, and push the repository back up."
+   > "This lesson covers git and Github, loops, if/then/else statements, &, ||, !=, and other concepts.
+   > For the homework you'll fork and clone a repository from Github, make changes until tests pass, and push the repository back up."
 - [LESSON TWO: Homework Assignment](https://github.com/SunJieMing/js-minicamp-homework-2)  
 - [LESSON TWO: Completed Homework](https://github.com/mixelpixel/js-minicamp-homework-2/tree/master)  
 
@@ -254,19 +249,15 @@ console.log(favFoods);
 # Lesson Three
 ## "JavaScript Objects"
 - [LESSON THREE LECTURE](https://youtu.be/Dc6YcYsT3UM)
-
-   "Objects, this, and more.
-
-   For the homework you'll fork and clone a repository from Github, make changes until tests pass, and push the repository back up."
+   > "Objects, this, and more.
+   > For the homework you'll fork and clone a repository from Github, make changes until tests pass, and push the repository back up."
 - [LESSON THREE: Homework Assignment](https://github.com/SunJieMing/js-minicamp-homework-3)  
 - [LESSON THREE: Completed Homework](https://github.com/mixelpixel/js-minicamp-homework-3)  
 
 <details><summary><b>LESSON THREE: NOTES</b></summary><p>
 
 ### LESSON THREE LECTURE NOTES
-
-when assigning variables, instead of x _equals_ 5, x **gets** 5.
-
+- When assigning variables, instead of x _equals_ 5, x **gets** 5.  
 - [@35s](https://youtu.be/Dc6YcYsT3UM?t=35s) **Lecture starts**
 - [@1m34s](https://youtu.be/Dc6YcYsT3UM?t=1m34s) **Objects = {Keys: Values}**
   - Named keys are similar to the array index number
@@ -401,17 +392,14 @@ users[0].sayHi();
 # Lesson Four
 ## "Advanced JavaScript"
 - [LESSON FOUR LECTURE](https://youtu.be/LowXf4APQtk)
-
-   "The final lesson of the four-part LambdaSchool Mini Bootcamp covers Callback Functions, Closure, arguments array, recursion, prototype, and constructors.
-
-   For the homework you'll fork and clone a repository from Github, make changes until tests pass, and push the repository back up."
+   > "The final lesson of the four-part LambdaSchool Mini Bootcamp covers Callback Functions, Closure, arguments array, recursion, prototype, and constructors.
+   > For the homework you'll fork and clone a repository from Github, make changes until tests pass, and push the repository back up."
 - [LESSON FOUR: Homework Assignment](https://github.com/SunJieMing/js-minicamp-homework-4)  
 - [LESSON FOUR: Completed Homework](https://github.com/mixelpixel/js-minicamp-homework-4/tree/master)  
 
 <details><summary><b>LESSON FOUR: NOTES</b></summary><p>
 
 ### LESSON FOUR LECTURE NOTES
-
 - [@3m30s](https://youtu.be/LowXf4APQtk?t=3m30s) **Lecture Starts**
   - https://jsbin.com
 - [@4m25s](https://youtu.be/LowXf4APQtk?t=4m25s) **"Truthiness" & "Falsiness"**
@@ -770,7 +758,6 @@ snowballIII.meow();
 </p></details>
 
 ***
-
 ## git / GitHub NOTES:
 
 <details><summary>git and GitHub</summary><p>
@@ -822,5 +809,4 @@ Per: https://git-scm.com/book/en/v2/Git-Tools-Submodules
 </p></details>
 
 ***
-
 # fin
