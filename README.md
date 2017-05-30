@@ -1,10 +1,10 @@
 # [JavaScript](https://www.javascript.com) Mini-BootCamp
 - https://lambdaschool.com/mini-bootcamp/javascript
-##### https://github.com/mixelpixel/JavaScript-mini-bootcamp#lesson-one
-##### https://github.com/mixelpixel/JavaScript-mini-bootcamp#lesson-two
-##### https://github.com/mixelpixel/JavaScript-mini-bootcamp#lesson-three
-##### https://github.com/mixelpixel/JavaScript-mini-bootcamp#lesson-four
-##### https://github.com/mixelpixel/JavaScript-mini-bootcamp#git--github-notes
+#### https://github.com/mixelpixel/JavaScript-mini-bootcamp#lesson-one
+#### https://github.com/mixelpixel/JavaScript-mini-bootcamp#lesson-two
+#### https://github.com/mixelpixel/JavaScript-mini-bootcamp#lesson-three
+#### https://github.com/mixelpixel/JavaScript-mini-bootcamp#lesson-four
+#### https://github.com/mixelpixel/JavaScript-mini-bootcamp#git--github-notes
 ### JavaScript Standards
 - https://www.ecma-international.org/ecma-262/7.0/
 - https://developer.mozilla.org/en/docs/Web/JavaScript
