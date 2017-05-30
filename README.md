@@ -5,9 +5,14 @@
 ##### [Lesson 3](https://github.com/mixelpixel/JavaScript-mini-bootcamp#lesson-three)
 ##### [Lesson 4](https://github.com/mixelpixel/JavaScript-mini-bootcamp#lesson-four)
 ##### [`git` & GitHub notes](https://github.com/mixelpixel/JavaScript-mini-bootcamp#git--github-notes)
-### JavaScript Standards
+### JavaScript Standards & Specifications
 - https://www.ecma-international.org/ecma-262/7.0/
-- https://developer.mozilla.org/en/docs/Web/JavaScript
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Language_Resources
+### JavaScript Resources
+- http://www.ecma-international.org/ecma-262/7.0/
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript
+- https://www.w3schools.com/js/
+- https://github.com/ericdouglas/ES6-Learning
 ***
 # Lesson One
 ## "Introduction to JavaScript"
