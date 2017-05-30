@@ -3,7 +3,7 @@
 ##### [Lesson 1](https://github.com/mixelpixel/JavaScript-mini-bootcamp#lesson-one)
 ##### [Lesson 2](https://github.com/mixelpixel/JavaScript-mini-bootcamp#lesson-two)
 ##### [Lesson 3](https://github.com/mixelpixel/JavaScript-mini-bootcamp#lesson-three)
-##### [Lesson 1](https://github.com/mixelpixel/JavaScript-mini-bootcamp#lesson-four)
+##### [Lesson 4](https://github.com/mixelpixel/JavaScript-mini-bootcamp#lesson-four)
 ##### [`git` & GitHub notes](https://github.com/mixelpixel/JavaScript-mini-bootcamp#git--github-notes)
 ### JavaScript Standards
 - https://www.ecma-international.org/ecma-262/7.0/
