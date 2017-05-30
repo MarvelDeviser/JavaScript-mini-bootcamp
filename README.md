@@ -11,6 +11,7 @@ https://lambdaschool.com/mini-bootcamp/javascript
 ### JavaScript Resources
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript
 - https://www.w3schools.com/js/
+- https://www.javascript.com/resources
 - https://github.com/ericdouglas/ES6-Learning
 ***
 # Lesson One
