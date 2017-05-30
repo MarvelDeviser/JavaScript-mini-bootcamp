@@ -9,7 +9,6 @@ https://lambdaschool.com/mini-bootcamp/javascript
 - https://www.ecma-international.org/ecma-262/7.0/
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Language_Resources
 ### JavaScript Resources
-- http://www.ecma-international.org/ecma-262/7.0/
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript
 - https://www.w3schools.com/js/
 - https://github.com/ericdouglas/ES6-Learning
